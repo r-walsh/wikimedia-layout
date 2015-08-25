@@ -5,9 +5,17 @@ html, body {
 	font-size: 1.1em;
 	line-height: 1.5em;
 }
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
 #wrapper {
 	width: 70%;
 	margin: 30px auto;
+}
+#wrapper p {
+	margin-bottom: 0;
 }
 h2 {
 	font-size: 1em;
@@ -20,11 +28,21 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-.flex-container {
-	display: flex;
-	width: 100%;
-	margin: 0;
+#logo-container {
+	width: 95%;
+	margin: 100px auto 0 auto;
 	padding: 0;
+}
+.logo-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-bottom: 15px;
+}
+.square-logo {
+	width: 135px;
+	height: 135px;
 }
 footer {
 	width: 100%;
@@ -38,4 +56,36 @@ footer p {
 	width: 40px;
 	display: inline;
 	margin-left: 20px;
+}
+#wikipedia {
+	width: 135px;
+	height: 154px;
+}
+#wikisource {
+	width: 123px;
+	height: 154px;
+}
+#wikinews {
+	width: 135px;
+	height: 104px;
+}
+#wikiversity {
+	width: 119px;
+	height: 135px;
+}
+#wikispecies {
+	width: 125px;
+	height: 160px;
+}
+#wikidata {
+	width: 150px;
+	height: 105px;
+}
+#wikicommons {
+	width: 135px;
+	height: 155px;
+}
+#wikilabs {
+	width: 122px;
+	height: 138px;
 }
